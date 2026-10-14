@@ -29,8 +29,8 @@ export const navLinks = [
   { id: "about", label: "About" },
   { id: "expertise", label: "Initiatives" },
   { id: "experience", label: "Experience" },
-  // { id: "initiatives", label: "Initiatives" },
   { id: "education", label: "Education" },
+  { id: "initiatives", label: "Communication" },
   { id: "contact", label: "Contact" },
 ];
 
@@ -270,44 +270,41 @@ export const experience = {
 };
 
 export const initiatives = {
-  subtitle: "Connecting Education, Industry, and Talent.",
+  // subtitle: "Connecting Education, Industry, and Talent.",
   items: [
-    //   // {
-    //   //   icon: "Building2",
-    //   //   title: "Campus Recruitment & Employer Connect",
-    //   //   description:
-    //   //     "Coordination with industry HR professionals and planning activities that support campus recruitment and employer engagement.",
-    //   // },
-    //   {
-    //     icon: "Presentation",
-    //     title: "Industry-Relevant Training",
-    //     description:
-    //       "Training and development activities focused on helping students understand workplace expectations and improve career readiness.",
-    //   },
-    //   {
-    //     icon: "Link2",
-    //     title: "Industry-Institute Collaboration",
-    //     description:
-    //       "Activities supporting relationships between educational institutions and industry, including industry coordination and industry visits.",
-    //   },
-    //   {
-    //     icon: "Search",
-    //     title: "Recruitment Process & Sourcing",
-    //     description:
-    //       "Experience with sourcing strategies, recruitment coordination, candidate screening, hiring manager collaboration, and recruitment pipeline tracking.",
-    //   },
-    //   {
-    //     icon: "LineChart",
-    //     title: "Talent Development & Training Tracking",
-    //     description:
-    //       "Experience preparing training calendars and monitoring training participation, feedback, assessments, and development indicators.",
-    //   },
-    //   {
-    //     icon: "UsersRound",
-    //     title: "Recruitment Team Coordination",
-    //     description:
-    //       "Experience leading and mentoring recruiters, coordinating hiring activities, and supporting recruitment targets.",
-    //   },
+    {
+      // icon: "Building2",
+      title: "TAMIL",
+      description: "Professional",
+    },
+    {
+      // icon: "Presentation",
+      title: "ENGLISH",
+      description: "Professional",
+    },
+    {
+      // icon: "Link2",
+      title: "HINDI",
+      description: "Conversional",
+    },
+    // {
+    //   icon: "Search",
+    //   title: "Recruitment Process & Sourcing",
+    //   description:
+    //     "Experience with sourcing strategies, recruitment coordination, candidate screening, hiring manager collaboration, and recruitment pipeline tracking.",
+    // },
+    // {
+    //   icon: "LineChart",
+    //   title: "Talent Development & Training Tracking",
+    //   description:
+    //     "Experience preparing training calendars and monitoring training participation, feedback, assessments, and development indicators.",
+    // },
+    // {
+    //   icon: "UsersRound",
+    //   title: "Recruitment Team Coordination",
+    //   description:
+    //     "Experience leading and mentoring recruiters, coordinating hiring activities, and supporting recruitment targets.",
+    // },
   ],
 };
 
@@ -331,7 +328,7 @@ export const contact = {
   heading:
     "Building Better Connections Between Talent, Industry, and Professional Opportunities.",
   text: "Feel free to connect for professional discussions, talent acquisition, recruitment coordination, training and development, and industry-institute collaboration.",
-  name: "Sanjaysena D.",
+  name: "Sanjaysena.D",
   location: "Coimbatore, Tamil Nadu, India",
   email: "sanjaysenad@zohomail.in",
   linkedin: "https://linkedin.com/in/sanjaysenad",
