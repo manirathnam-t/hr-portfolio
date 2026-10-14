@@ -37,8 +37,10 @@ export const navLinks = [
 export const footerLinks = [
   { id: "home", label: "Home" },
   { id: "about", label: "About" },
+  { id: "expertise", label: "Initiatives" },
   { id: "experience", label: "Experience" },
-  { id: "expertise", label: "Expertise" },
+  { id: "education", label: "Education" },
+  { id: "initiatives", label: "Communication" },
   { id: "contact", label: "Contact" },
 ];
 
