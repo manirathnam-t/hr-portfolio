@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --color-bg: #06101f;
+  --color-bg2: #0a1830;
+  --color-card: rgba(13, 31, 55, 0.75);
+  --color-accent: #27d9e8;
+  --color-accent2: #00afc8;
+  --color-ink: #f4f8ff;
+  --color-muted: #a8b8cc;
+  --color-line: rgba(87, 190, 220, 0.2);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+.bg-page {
+  background:
+    radial-gradient(
+      60rem 40rem at 85% -5%,
+      rgba(39, 217, 232, 0.12),
+      transparent 60%
+    ),
+    radial-gradient(
+      50rem 40rem at -10% 40%,
+      rgba(0, 175, 200, 0.08),
+      transparent 60%
+    ),
+    linear-gradient(180deg, #06101f 0%, #0a1830 50%, #06101f 100%);
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(87, 190, 220, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(87, 190, 220, 0.06) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: linear-gradient(180deg, black 0%, transparent 85%);
+  -webkit-mask-image: linear-gradient(180deg, black 0%, transparent 85%);
+}
+
+.glass {
+  background: var(--color-card);
+  border: 1px solid var(--color-line);
+  border-radius: 1.25rem;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow:
+    0 0 0 1px rgba(39, 217, 232, 0.04),
+    0 18px 40px -22px rgba(0, 0, 0, 0.7);
+  transition:
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.glass:hover {
+  border-color: rgba(39, 217, 232, 0.45);
+  box-shadow: 0 0 28px -8px rgba(39, 217, 232, 0.35);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+  border-radius: 0.5rem;
+}
