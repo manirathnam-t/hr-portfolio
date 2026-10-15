@@ -69,7 +69,7 @@ export const stats = [
   },
   {
     kind: "text",
-    value: "IT + NON-IT   , TRAINING & DEVELOPMENT",
+    value: "IT and NON-IT + TRAINING & DEVELOPMENT",
     label: "Recruitment Expertise",
     icon: "Layers",
   },
@@ -168,7 +168,7 @@ export const expertise = {
       icon: "CalendarCheck",
       title: "Recruitment",
       description:
-        "Coordinating candidates, hiring managers, and reporting across the hiring process.",
+        "Hiring candidates, hiring managers, and reporting across the hiring process.",
       skills: [
         "Interview scheduling",
         "Candidate engagement",
@@ -183,7 +183,7 @@ export const expertise = {
       icon: "Handshake",
       title: "Industry-Institute Collaboration",
       description:
-        "Building working relationships between educational institutions and industry.",
+        "Building relationships between educational institutions and industry.",
       skills: [
         "Industry HR connections",
         "Industry visits",
@@ -287,7 +287,7 @@ export const initiatives = {
     {
       // icon: "Link2",
       title: "HINDI",
-      description: "Conversional",
+      description: "Conversational",
     },
     // {
     //   icon: "Search",
@@ -319,7 +319,8 @@ export const education = [
     icon: "GraduationCap",
   },
   {
-    degree: "Bachelor's in Computer Applications (B. Com) Computer Application",
+    degree: "Bachelor of Commerce",
+    specialization: "Computer Application (B. Com  )",
     institution: "Bharathiar University",
     period: "2009 – 2012",
     icon: "BookOpen",
