@@ -25,7 +25,7 @@ export default function Contact() {
       <SectionHeading
         id="contact-title"
         eyebrow="Get In Touch"
-        title="STAY CONNECT"
+        title="STAY CONNECTED"
         subtitle={contact.heading}
       />
       <motion.div
