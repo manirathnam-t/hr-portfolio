@@ -100,7 +100,7 @@ export default function Hero() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-accent to-accent2 px-6 py-3 text-xs font-extrabold tracking-widest text-bg shadow-[0_0_24px_-6px_rgba(39,217,232,0.8)]"
             >
-              GET CV <ArrowRight size={16} aria-hidden="true" />
+              VIEW CV <ArrowRight size={16} aria-hidden="true" />
             </motion.a>
 
             {/* 2nd button: DOWNLOAD RESUME (unchanged code, only moved up) */}
@@ -112,7 +112,7 @@ export default function Hero() {
               onClick={checkResume}
               className="inline-flex items-center gap-2 rounded-full border border-line px-6 py-3 text-xs font-extrabold tracking-widest text-muted transition-colors hover:border-accent/50 hover:text-ink"
             >
-              <Download size={16} aria-hidden="true" /> DOWNLOAD RESUME
+              <Download size={16} aria-hidden="true" /> DOWNLOAD CV
             </motion.a>
 
             {/* 3rd button: LET'S CONNECT (unchanged code, only moved to the end) */}
